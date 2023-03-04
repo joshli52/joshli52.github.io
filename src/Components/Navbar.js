@@ -1,7 +1,7 @@
 
-import "../styles/Navbar.css"
+import "../styles/navbar.css"
 import AlignHorizontalRightRounded from "@mui/icons-material/AlignHorizontalRightRounded";
-import react, {useEffect, useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import {Link, useLocation} from "react-router-dom";
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
           onClick = {()=> {setExpandNavbar ((prev) => !prev);
           }}> 
             <AlignHorizontalRightRounded/>
-        </button>
+        </button>     
       </div>
       <div className = "links">
         <Link to = "/"> Home</Link>

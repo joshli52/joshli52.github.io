@@ -11,4 +11,8 @@ export const ProjectList = [
     image: forest,
     skills: "React, OOP, Javascript",
   },
+  { name: "project3",
+    image: forest,
+    skills: "having fun",
+  }
 ]

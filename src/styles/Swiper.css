@@ -1,0 +1,34 @@
+
+.swiper-image {
+  height:300px;
+  width:auto;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+h1 {
+  color: green;
+}
+.swiper-background{
+  background-color: #344E41;
+}
+p {
+  font-size: 30px;
+}
+.swiper-pagination-bullet {
+  background-color: yellow !important;
+}
+.swiper-button-next::after  {
+  color: yellow;
+}
+.swiper-button-prev::after {
+  color: pink;
+}
+@media only screen and (max-width: 450px) {
+  .swiper-image{
+    height: 200px;
+    width: auto;
+  }
+  .p {
+    font-size: 20px;
+  }
+}

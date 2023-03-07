@@ -3,25 +3,22 @@
   height:300px;
   width:auto;
   border-radius: 20px;
-  border: 2px solid white;
+  border: 3px solid #FFC300;
 }
 h1 {
-  color: green;
+  color: #FFD60A;
 }
 .swiper-background{
-  background-color: #344E41;
+  background-color: #001D3D;
 }
 p {
   font-size: 30px;
 }
 .swiper-pagination-bullet {
-  background-color: yellow !important;
+  background-color: #FFC300 !important;
 }
-.swiper-button-next::after  {
-  color: yellow;
-}
-.swiper-button-prev::after {
-  color: pink;
+.swiper-button-next::after, .swiper-button-prev::after  {
+  color: #FFC300;
 }
 @media only screen and (max-width: 450px) {
   .swiper-image{
@@ -30,5 +27,13 @@ p {
   }
   .p {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .swiper-button-next::after  {
+    display: none;
+  }
+  .swiper-button-prev::after {
+    display: none;
   }
 }

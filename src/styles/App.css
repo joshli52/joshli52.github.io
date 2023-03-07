@@ -1,8 +1,11 @@
-.App {
+html * {
   text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Titillium Web', sans-serif !important;
 }
 
 body {
   padding: 0;
   margin: 0;
-}
+}     
+

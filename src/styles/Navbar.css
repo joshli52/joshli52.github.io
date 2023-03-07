@@ -3,6 +3,7 @@
   height: 60px;
   background: #0f2d03;
   position:fixed;
+  z-index:100;
 }
 
 .links {
@@ -42,6 +43,7 @@
 
 #open {
   height: 100vh;
+  position: absolute;
 }
 
 #open .links {
@@ -61,18 +63,25 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .toggleButton {
     display: flex;
   }
+  .navbar {
+    background-color: transparent;
+  }
   #close a {
     display: none;
+  }
+  #open.navbar {
+    background-color: black;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .toggleButton {
     display: none;
+    background-color: transparent;
   }
 
   .hiddenLinks {

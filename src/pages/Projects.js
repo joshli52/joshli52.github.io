@@ -9,7 +9,7 @@ function Projects() {
         <h1 className = "projectTitle" >My Projects</h1>
         <div className = "projectList">
           {ProjectList.map((project, index) => {
-            return <ProjectItem p ={index} name = {project.name} image = {project.image} />
+            return <ProjectItem p ={index} name = {project.name} image = {project.image} link = {project.link} />
           } ) }
         </div>
     </div>

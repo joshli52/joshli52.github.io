@@ -14,21 +14,20 @@ import '../styles/Swiper.css';
 export default () => {
   return (
   <div className='swiper-background'>
+    <div className = "skills-subtitle">
+    Skills & Interests
+    </div>
     <Swiper
     modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-    spaceBetween={30}
+    spaceBetween={15}
     slidesPerView={1}
     breakpoints = {{  
-      900 : {slidesPerView:2},
-      1350 : {slidesPerView:3}
+      1050 : {slidesPerView:2},
     }}
     navigation
     pagination={{ clickable: true }}
-    onSwiper={(swiper) => console.log(swiper)}
-    onSlideChange={() => console.log('slide change')}
     autoplay = {{"delay":10000, "disableOnInteraction":false}}
     loop = {true}
-    loopFillGroupWithBlank={true}
   > 
 
   {SkillList.map((skill,index) => {

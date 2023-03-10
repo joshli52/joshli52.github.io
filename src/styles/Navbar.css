@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 60px;
-  background: #001D3D;
+  background: #85cfe1;
   position:fixed;
   z-index:100;
 }
@@ -12,16 +12,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFC300 ;
+  padding-right: 20px;
+  color: #000814;
 }
 
 .navbar a {
-  color: #FFC300 ;
+  color: #000814;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
+  font-weight: bold;
 }
-
+.navbar a:hover {
+  text-decoration: underline #fd5e53;
+}
 .toggleButton {
   width: 100%;
   height: 100px;
@@ -74,7 +78,7 @@
     display: none;
   }
   #open.navbar {
-    background-color: black;
+    background-color: #85cfe1;
   }
 }
 

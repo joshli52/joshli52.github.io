@@ -16,7 +16,7 @@ function ProjectDisplay() {
         <div className = "description">
             {project.description}
         </div>
-        <a href = {project.link} >
+        <a href = {project.link} target = "_blank" >
           <GitHubIcon />
         </a>
         </div>

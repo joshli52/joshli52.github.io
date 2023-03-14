@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/joshli52.github.io/static/css/main.4fbefc47.css",
+    "main.js": "/joshli52.github.io/static/js/main.95cfd0d3.js",
+    "static/js/787.6c6a0f94.chunk.js": "/joshli52.github.io/static/js/787.6c6a0f94.chunk.js",
+    "static/media/forest.jpg": "/joshli52.github.io/static/media/forest.6309aa153b116556a2d1.jpg",
+    "index.html": "/joshli52.github.io/index.html",
+    "main.4fbefc47.css.map": "/joshli52.github.io/static/css/main.4fbefc47.css.map",
+    "main.95cfd0d3.js.map": "/joshli52.github.io/static/js/main.95cfd0d3.js.map",
+    "787.6c6a0f94.chunk.js.map": "/joshli52.github.io/static/js/787.6c6a0f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fbefc47.css",
+    "static/js/main.95cfd0d3.js"
+  ]
+}

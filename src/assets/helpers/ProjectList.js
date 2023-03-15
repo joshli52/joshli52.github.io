@@ -1,24 +1,26 @@
-import forest from "../forest.jpg";
+import react from "../react.png";
+import i4 from "../i4.jpg";
+import tetris from "../tetris.jpg";
 // this file serves as a way to easily change as manipulate projects listed in "../pages/projects"
 // this file is refernced by "../pages/ProjectDisplay for the image and name inputs
 export const ProjectList = [
   {
-    name: "forest",
-    image: forest,
-    skills: "Django, API, Python",
-    link: "https://github.com",
-    description: "This is example project 2 and a forest",
+    name: "Personal Portfolio",
+    image: react,
+    skills: "React, HTML, CSS",
+    link: "https://github.com/joshli52/joshli52.github.io",
+    description: "Building this portfolio webpage allowed me to gain familiarity with the React library and documentation. It also strengthened my Git knowledge.",
   },
-  { name: "exampleproject2",
-    image: forest,
-    skills: "React, OOP, Javascript",
-    link: "https://github.com",
-    description: "This is example project 2 and a forest",
+  { name: "Industry 4.0",
+  image: i4,
+  skills: "React, JIRA, Github",
+  link: "https://www.i4competition.ca/",
+  description: "Industry 4.0 is a University of Waterloo design team with roots in high-level data optmization applicable to businesses. As a Software Executive we are currently of revamping the website using React, I am also creating and managing JIRA tickets. ",
+},
+  { name: "Python Tetris Clone",
+    image: tetris,
+    skills: "Python, Object-Oriented Programming",
+    link: "https://github.com/joshli52/tetris",
+    description: "Tetris was a personal childhood staple, remaking the game required breaking down the game into elementary concepts completed with OOP, emulating the game in Python required applications of GUI design and Object-Oriented Programming. ",
   },
-  { name: "project3",
-    image: forest,
-    skills: "having fun",
-    link: "https://github.com",
-    description: "This is example project 2 and a forest fajdk;fladfjafa  afkdjfka;fjdafjakdjfkal;fj ka fkdj;afja;dfkjakl;dfjakofjafjwio0fjaka;jfiwof ajoifjaqponmaklcjdkfj",
-  }
 ]

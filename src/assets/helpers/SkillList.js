@@ -1,6 +1,6 @@
 import pinkandwhite from "../pinkandwhite.jpg";
 import sudoku from "../sudoku.jpg";
-import yoga from "../yoga.jpg";
+import rowing from "../rowing.jpg";
 import i4 from "../i4.jpg";
 // this file serves as a way to easily change as manipulate projects listed in "../pages/projects"
 // this file is refernced by "../pages/ProjectDisplay for the image and name inputs
@@ -18,9 +18,9 @@ export const SkillList = [
     image: pinkandwhite,
     text: "This past summer I had the opportunity to work at Algonquin park where I was twice awarded Employee of the Week for taking initiative and communication under high-pressure situationss. "
   },
-  { name: "Fitness",
-    image: yoga,
-    text: "Outside of development, I love staying active through basketball, weight training, yoga and water sports."
+  { name: "Water Sports",
+    image: rowing,
+    text: "Outside of development, I love competing as a part of UWaterloo's Varsity Rowing Team. "
   }
   // { name: "skill5",
   //   image: forest,

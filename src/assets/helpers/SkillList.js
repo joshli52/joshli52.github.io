@@ -1,6 +1,6 @@
 import pinkandwhite from "../pinkandwhite.jpg";
 import sudoku from "../sudoku.jpg";
-import rowing from "../rowing.jpg";
+import rowing from "../rowing.png";
 import i4 from "../i4.jpg";
 // this file serves as a way to easily change as manipulate projects listed in "../pages/projects"
 // this file is refernced by "../pages/ProjectDisplay for the image and name inputs

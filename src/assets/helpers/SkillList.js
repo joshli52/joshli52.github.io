@@ -14,9 +14,9 @@ export const SkillList = [
     image: i4,
     text: "Through this website and my Software Exectutive position on Industry 4.0 I've developped industry standard web development tools such as React, JIRA, Github, HTML and CSS! Learn more about Industry 4.0 in my projects section.",
   },
-  { name: "Committed",
+  { name: "Taking Initiative",
     image: pinkandwhite,
-    text: "This past summer I had the opportunity to work at Algonquin park where I was twice awarded Employee of the Week for taking initiative and communication under high-pressure situationss. "
+    text: "I had the opportunity to work at Algonquin park where I was twice awarded Employee of the Week for taking initiative and communication under high-pressure situationss. "
   },
   { name: "Water Sports",
     image: rowing,

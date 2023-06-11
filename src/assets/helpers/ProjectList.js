@@ -29,7 +29,7 @@ export const ProjectList = [
     skills: "C#, Visual Studio Enterprise, Scratch, JIRA",
     link: "https://anchorsbook.com",
     description: "Created and delployed a mobile application for a thriving tech start-up"
-  }
+  },
   { name: "Snake Game",
   image: Anchorsbook,
   skills: "Python, Pygame",
